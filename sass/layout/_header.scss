@@ -1,0 +1,38 @@
+@use '../core/' as *;
+.feature {
+    padding-top: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.feature__header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+.feature__header__title {
+    width: fit-content;
+    color: $neutral-blue-900;
+    font-size: 1.5em;
+    @media (min-width: 991px) {
+        font-size: 2em;
+    }
+    margin: {
+        left: auto;
+        right: auto;
+        bottom: 1em;
+    }
+    span {
+        display: block;
+        color: $neutral-blue-900;
+        font-weight: 200;
+    }
+}
+.feature__header__description {
+    max-width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    color: $neutral-gray-blue;
+    @media (min-width: 768px) {
+        max-width: 500px;
+    }
+}

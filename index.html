@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Four card feature section</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./sass/main.css">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="feature container">
+      <!-- Start Header -->
+      <header class="feature__header">
+        <h1 class="feature__header__title">
+          <span>Reliable, efficient delivery</span>
+          Powered by Technology
+        </h1>
+        <p class="feature__header__description">
+          Our Artificial Intelligence powered tools use millions of project data points
+          to ensure that your project is successful
+        </p>
+      </header>
+      <!-- End Header -->
+      <!-- Start Cards -->
+      <section class="feature__cards">
+        <ul class="feature__list">
+          <div class="col-wrapper fixed-width-300-medium flex-center-vertical">
+            <li class="feature__item feature__item--cyan fixed-width-300-medium">
+              <div class="feature__content">
+                <h2>Supervisor</h2>
+                <p>Monitors activity to identify project roadblocks</p>
+              </div>
+              <img class="align-right" aria-hidden="true" src="./images/icon-supervisor.svg" alt="">
+            </li>
+          </div>
+          <div class="col-wrapper fixed-width-300-medium">
+            <li class="feature__item feature__item--red fixed-width-300-medium">
+              <div class="feature__content ">
+                <h2>Team Builder</h2>
+                <p>Scans our talent network to create the optimal team for your project</p>
+              </div>
+              <img class="align-right" aria-hidden="true" src="./images/icon-team-builder.svg" alt="">
+            </li>
+            <li class="feature__item feature__item--orange fixed-width-300-medium">
+              <div class="feature__content">
+                <h2>Karma</h2>
+                <p>Regularly evaluates our talent to ensure quality</p>
+              </div>
+              <img class="align-right" aria-hidden="true" src="./images/icon-karma.svg" alt="">
+            </li>
+          </div>
+          <div class="col-wrapper fixed-width-300-medium flex-center-vertical">
+            <li class="feature__item feature__item--blue fixed-width-300-medium">
+              <div class="feature__content">
+                <h2>Calculator</h2>
+                <p>Uses data from past projects to provide better delivery estimates</p>
+              </div>
+              <img class="align-right" aria-hidden="true" src="./images/icon-calculator.svg" alt="">
+            </li>
+          </div>
+        </ul>
+      </section>
+      <!-- End Cards -->
+    </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Saleh Abuhussein</a>.
+    </p>
+  </footer>
+</body>
+
+</html>

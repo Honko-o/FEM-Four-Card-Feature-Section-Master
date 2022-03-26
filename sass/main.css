@@ -1,0 +1,262 @@
+/*
+    Prefixer Mixin
+    Mixin to add Vendor Prefixes to CSS Properties
+*/
+/*
+    Overlay Mixin
+    Mixin To add Basic Overlay properties
+*/
+/* 
+    Flexbox Mixin
+    Mixin To Apply Flexbox Properties
+*/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+/*
+    This Class Helps with
+    Center The Flex item vertically
+*/
+.flex-center-vertical {
+  align-self: center;
+}
+
+/*
+    This Class Sets Fixed Width to any Element
+*/
+@media (min-width: 991px) {
+  .fixed-width-300-medium {
+    width: 300px;
+  }
+}
+
+.align-right {
+  margin-left: auto;
+  text-align: right;
+}
+
+.feature__cards {
+  max-width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 991px) {
+  .feature__cards {
+    max-width: 50em;
+  }
+}
+
+.feature__list {
+  gap: 2rem;
+}
+@media (min-width: 991px) {
+  .feature__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.feature__item {
+  background-color: #fafafa;
+  padding: 1.3rem;
+  margin-bottom: 2rem;
+  border-radius: 0.4rem;
+  border-top-width: 5px;
+  border-top-style: solid;
+  box-shadow: 1px 10px 10px rgba(76, 78, 97, 0.1), -1px 5px 10px rgba(76, 78, 97, 0.1);
+}
+
+.feature__content h2 {
+  color: #4c4e61;
+  margin-bottom: 1rem;
+}
+.feature__content p {
+  color: #a3a5ae;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.feature__item--cyan {
+  border-color: #45d3d3;
+}
+
+.feature__item--red {
+  border-color: #ea5353;
+}
+
+.feature__item--orange {
+  border-color: #fcaf4a;
+}
+
+.feature__item--blue {
+  border-color: #549ef2;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.feature {
+  padding-top: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.feature__header {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.feature__header__title {
+  width: fit-content;
+  color: #4c4e61;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+@media (min-width: 991px) {
+  .feature__header__title {
+    font-size: 2em;
+  }
+}
+.feature__header__title span {
+  display: block;
+  color: #4c4e61;
+  font-weight: 200;
+}
+
+.feature__header__description {
+  max-width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  color: #a3a5ae;
+}
+@media (min-width: 768px) {
+  .feature__header__description {
+    max-width: 500px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

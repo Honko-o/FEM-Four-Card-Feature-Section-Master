@@ -1,0 +1,8 @@
+@use './variables' as *;
+
+body {
+    font-size: $root-font-size;
+    font-family: 'Poppins', sans-serif;
+}
+// - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+// - Weights: 200, 400, 600
