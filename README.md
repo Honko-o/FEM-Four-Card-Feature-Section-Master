@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Honko-o/FEM-Four-Card-Feature-Section-Master)
+- Live Site URL: (https://honko-o.github.io/FEM-Four-Card-Feature-Section-Master/)
 
 
 ## My process
